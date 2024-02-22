@@ -1,3 +1,5 @@
+import '../../css/header.css';
+
 export default function HeaderContainer() {
   return (
     <div className="bg-black fixed z-50 flex justify-between px-12 w-full top-0">
@@ -9,12 +11,12 @@ export default function HeaderContainer() {
           alt="logo"
         />
         <div className="text-white text-base flex font-bold  whitespace-nowrap">
-          <div className="px-[20px] py-[22px]">회사소개</div>
-          <div className="px-[20px] py-[22px]">크리에이터</div>
-          <div className="px-[20px] py-[22px]">비즈니스</div>
-          <div className="px-[20px] py-[22px]">문의하기</div>
-          <div className="px-[20px] py-[22px]">채용</div>
-          <div className="px-[20px] py-[22px]">FAMILY</div>
+          <div className="item">회사소개</div>
+          <div className="item">크리에이터</div>
+          <div className="item">비즈니스</div>
+          <div className="item">문의하기</div>
+          <div className="item">채용</div>
+          <div className="item">FAMILY</div>
         </div>
       </div>
 
