@@ -6,7 +6,7 @@ export default function LayoutIndex(props: PropsWithChildren) {
   return (
     <>
       <HeaderContainer />
-      <div className="mt-16 bg-green-500">{props.children}</div>
+      <div className="mt-[68px]">{props.children}</div>
 
       <FooterContainer />
     </>
