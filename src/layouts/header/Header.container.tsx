@@ -14,7 +14,7 @@ export default function HeaderContainer() {
           />
         </Link>
         <div className="text-white text-base flex font-bold  whitespace-nowrap">
-          <Link to="/introduce"><div className="item">회사소개</div></Link>
+          <Link to="/introduce"><div className="item">회사소개test</div></Link>
           <div className="item">크리에이터</div>
           <div className="item">비즈니스</div>
           <div className="item">문의하기</div>
